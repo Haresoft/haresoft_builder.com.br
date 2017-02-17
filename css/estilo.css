@@ -1,0 +1,65 @@
+/* css personalizado */
+
+.fundo-verde{
+    background: green;
+}
+.bg-color-padding{
+    padding: 15px;
+}
+
+.icon{
+    width: 40px;
+    height: 38px;
+    position: relative;
+    top: 11px;
+}
+
+.rodape{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background: rgba(0,0,0,0.8);
+}
+.rodape img{
+    margin-left: auto;
+    margin-right: auto;
+}
+.rodape p{
+    margin-top: auto;
+    margin-bottom: auto;
+    color:  white;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white
+    
+}
+@media (min-width: 768px) {
+    .navbar a:hover{
+        color: hsla(120,100%,40%,0.8);
+    }
+    .apresentacao{
+       min-height: 100vh; 
+    }
+    
+    .fundo-opaco{
+    background: hsla(0,0%,0%,0.4);
+    }
+}
+.apresentacao {
+    background-image: url("../imgs/background.jpg");
+    overflow: hidden;
+    background-size: cover;
+    background-position: center 16%;
+    height: 580px;
+    position: relative;
+    padding-top: 150px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);     
+}
+.padding-horizontal-zero{
+    padding-left: 0;
+    padding-right: 0;
+}
+body {
+  font-family: 'Nunito Sans', sans-serif;
+}
