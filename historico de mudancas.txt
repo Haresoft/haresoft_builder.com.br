@@ -1,2 +1,3 @@
 17/02 feita correçao na barra de navegação - arquivos alterados : main.js
 17/02 foi criado um rodape, ainda não aprovado - arquivos alterados : css, index
+vai ficar td no git
